@@ -150,3 +150,12 @@ figcaption{
 .fig-wrapper-4, .fig-11{
   margin-top: 0;
 }
+
+.bodytext{
+  margin-left: 50px;
+}
+
+main-nav ul{
+  margin-right: 100px;
+  flex-direction: column;
+}
