@@ -1,0 +1,63 @@
+#font{
+  font-family:'Josefin Sans', sans-serif;
+}
+
+#image1{
+  width: auto;
+  height: auto;
+  padding-left: 120px;
+}
+
+#title{
+  color:firebrick;
+  font-weight: bolder;
+  font-size: 100pt;
+  line-height: 10px;
+  padding-left: 30px;
+  background-color: aliceblue;
+}
+
+#who{
+  color: lightskyblue;
+  font-size: 30pt;
+  padding-left: 70px;
+  line-height: 10px;
+  }
+
+
+#linebreak{
+    font-size: 90pt;
+    color: slategrey;
+    padding-left: 455px;
+}
+
+#body2{
+  font-size: 14pt;
+  color: slategrey;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#body3{
+  font-size: 14pt;
+  color: slategrey;
+  padding-left: 130px;
+}
+
+#body4{
+  font-size: 14pt;
+  color: slategrey;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+#pullquote{
+  font-size: 18pt;
+  color: firebrick;
+  font-style: italic;
+  padding-top:10px;
+  padding-left: 40px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
