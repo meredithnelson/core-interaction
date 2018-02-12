@@ -1,0 +1,39 @@
+#image1{
+  color:navy;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 60px;
+  float:left;
+
+}
+
+#video{
+  float:none;
+  padding-left: 290px;
+}
+
+#title{
+  color:navy;
+  font-size: 15pt;
+}
+
+#body{
+  font-size: 18pt;
+  color: powderblue;
+  display: inline-block;
+}
+
+#articles{
+  font-size: 14pt;
+  color: Navy;
+  display: inline-inline-block;
+  float: left;
+}
+
+#pullquote{
+  font-size: 19pt;
+  color: Navy;
+  font-style: italic;
+  padding:10px;
+  margin-left: 20px;
+}
