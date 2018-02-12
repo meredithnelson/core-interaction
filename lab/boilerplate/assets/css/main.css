@@ -155,7 +155,22 @@ figcaption{
   margin-left: 50px;
 }
 
-main-nav ul{
-  margin-right: 100px;
-  flex-direction: column;
+main.index{
+  display: flex;
+  height: 500px;
+}
+
+main.index p, main.index nav {
+  flex: 0 0 50%;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+main.index ul {
+  flex: 1
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
 }
