@@ -1,0 +1,64 @@
+#image1{
+  color:navy;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 60px;
+  float:left;
+
+}
+
+#video{
+  float:none;
+  padding-left: 290px;
+}
+
+#title{
+  color:crimson;
+  font-size: 30pt;
+  padding-bottom: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#body{
+  font-size: 18pt;
+  color: grey;
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 70px;
+  margin-right: 90px;
+
+}
+
+#articles{
+  font-size: 20pt;
+  color: Navy;
+  display: inline-inline-block;
+  float: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 70px;
+  margin-right: 90px;
+  font-weight: bold;
+}
+
+#pullquote{
+  font-size: 25pt;
+  color: Navy;
+  font-style: italic;
+  padding:10px;
+  margin-left: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#thepower{
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: crimson;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#date{
+  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
