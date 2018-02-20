@@ -1,0 +1,54 @@
+#image1{
+  color:navy;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  float: left;
+}
+
+#video{
+  float:none;
+  padding-left: 290px;
+}
+
+#title{
+  color:black;
+  font-size: 30pt;
+  padding-left: 120px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#body{
+  font-size: 18pt;
+  color: black;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 120px;
+  margin-right: 400px;
+
+}
+
+#articles{
+  font-size: 20pt;
+  color: black;
+  display: inline-inline-block;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 70px;
+  margin-right: 90px;
+  font-weight: bold;
+}
+
+#pullquote{
+  font-size: 20pt;
+  line-height: 37px;
+  color: Orange;
+  font-style: italic;
+  padding:10px;
+  margin-left: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#date{
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
