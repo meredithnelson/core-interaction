@@ -28,7 +28,7 @@ body{
 
 .longbox {
   position: relative;
-  margin-top: -200px;
+  margin-top: 0px;
    width: 400px;
    height: 800px;
    background-color: #CD8A24;
@@ -40,15 +40,19 @@ body{
 .boxleft {
   position: relative;
   display: flex;
+  margin-top: 25px;
+  margin-right: 35px;
   height: 50px;
   width: 150px;
   background-color: #AE7719;
-  float:left;
+  float:right;
 }
 
 .boxright {
+  position: relative;
   display: flex;
-  padding-left: 20px;
+  margin-top: 25px;
+  margin-right: 29px;
   height: 50px;
   width: 150px;
   background-color: #AE7719;
@@ -77,6 +81,7 @@ body{
 
 .triangle {
   padding-top: 100px;
+  margin-bottom: 5px;
   margin-left: 50px;
   width: 0;
   height: 0;
