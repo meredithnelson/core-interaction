@@ -1,0 +1,176 @@
+* { box-sizing: border-box;}
+
+body{
+  margin: 0;
+}
+
+main {
+  background-color: black;
+  position: relative;
+  font-family: Futura, "Trebuchet MS", Arial, sans-seri
+}
+
+.background {
+  margin-left: 175px;
+  background-color: black;
+  padding-bottom: 200px;
+}
+
+.triangle1 {
+  color: red;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 100px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 150px 259.8px 150px;
+  border-color: transparent transparent black transparent;
+}
+
+.triangle2 {
+  padding-top: 20px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 150px 259.8px 150px;
+  border-color: transparent transparent black transparent;
+}
+
+.triangle3 {
+  padding-top: 2px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 150px 259.8px 150px;
+  border-color: transparent transparent forestgreen transparent;
+}
+
+.go{
+  font-size: 60px;
+  position: relative;
+  color: white;
+  padding-top: 170px;
+  margin-bottom: 90px;
+  margin-left: -10px;
+}
+
+.slowdown{
+  font-size: 30px;
+  position: relative;
+  color: black;
+  padding-top: 170px;
+  margin-bottom: 90px;
+  margin-left: -10px;
+}
+
+.stop{
+  font-size: 40px;
+  position: relative;
+  color: black;
+  padding-top: 170px;
+  margin-bottom: 60px;
+  margin-left: -10px;
+}
+
+@media (max-width: 786px) {
+
+  main {
+    padding-left: 0px;
+    background-color: black;
+    position: relative;
+  }
+
+  .stop{
+    font-size: 40px;
+    position: relative;
+    color: black;
+    padding-top: 170px;
+    margin-bottom: 60px;
+    margin-left: -10px;
+  }
+
+  .triangle1 {
+    padding-top: 70px;
+    margin-bottom: 5px;
+    margin-left: -100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 150px 259.8px 150px;
+    border-color: transparent transparent black transparent;
+  }
+
+  .triangle2 {
+    padding-top: 20px;
+    margin-bottom: 25px;
+    margin-left: -100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 150px 259.8px 150px;
+    border-color: transparent transparent yellow transparent;
+  }
+
+  .triangle3 {
+    padding-top: 2px;
+    margin-bottom: 10px;
+    margin-left: -100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 150px 259.8px 150px;
+    border-color: transparent transparent forestgreen transparent;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  main {
+    padding-left: 0px;
+    background-color: black;
+    position: relative;
+  }
+
+  .triangle1 {
+    color: red;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    margin-left: -100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 150px 259.8px 150px;
+    border-color: transparent transparent red transparent;
+  }
+
+  }
+
+  .triangle2 {
+    padding-top: 20px;
+    margin-bottom: 25px;
+    margin-left: -100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 150px 259.8px 150px;
+    border-color: transparent transparent yellow transparent;
+  }
+
+  .triangle3 {
+    padding-top: 2px;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 150px 259.8px 150px;
+    border-color: transparent transparent forestgreen transparent;
+  }
+
+}
