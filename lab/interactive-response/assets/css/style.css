@@ -6,14 +6,17 @@ body{
 
 main {
   background-color: black;
+  padding-top: 50px;
   position: relative;
   font-family: Futura, "Trebuchet MS", Arial, sans-seri
 }
 
 .background {
+  position:relative;
+  padding-top: 20px;
   margin-left: 175px;
   background-color: black;
-  padding-bottom: 200px;
+  padding-bottom: 90px;
 }
 
 .triangle1 {
@@ -29,6 +32,7 @@ main {
 }
 
 .triangle2 {
+  display:none;
   padding-top: 20px;
   margin-bottom: 25px;
   margin-left: 100px;
@@ -40,92 +44,80 @@ main {
 }
 
 .triangle3 {
-  padding-top: 2px;
-  margin-bottom: 50px;
-  margin-left: 100px;
+  display: flex;
+  padding-top: -50px;
+  margin-bottom: 30px;
+  margin-left: 200px;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 150px 259.8px 150px;
+  border-width: 0 250px 400px 250px;
   border-color: transparent transparent forestgreen transparent;
 }
 
 .go{
-  font-size: 60px;
+  font-family: 'Anton', sans-serif;
+  font-size: 200px;
   position: relative;
-  color: white;
-  padding-top: 170px;
-  margin-bottom: 90px;
-  margin-left: -10px;
+  color: black;
+  padding-top: 140px;
+  margin-bottom: 100px;
+  margin-left: -90px;
 }
 
 .slowdown{
-  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  line-height: 55px;
   position: relative;
   color: black;
-  padding-top: 170px;
-  margin-bottom: 90px;
-  margin-left: -10px;
+  padding-top: 130px;
+  margin-bottom: 120px;
+  margin-left: -60px;
 }
 
 .stop{
-  font-size: 40px;
-  position: relative;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
   color: black;
-  padding-top: 170px;
+  padding-top: 100px;
   margin-bottom: 60px;
-  margin-left: -10px;
+  margin-left: -23px;
 }
 
 @media (max-width: 786px) {
 
   main {
-    padding-left: 0px;
+    display: block;
+    padding-bottom: 200px;
+    padding-left: -10px;
     background-color: black;
     position: relative;
   }
 
-  .stop{
-    font-size: 40px;
-    position: relative;
-    color: black;
-    padding-top: 170px;
-    margin-bottom: 60px;
-    margin-left: -10px;
-  }
-
-  .triangle1 {
-    padding-top: 70px;
-    margin-bottom: 5px;
-    margin-left: -100px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 150px 259.8px 150px;
-    border-color: transparent transparent black transparent;
-  }
-
   .triangle2 {
+    display:flex;
     padding-top: 20px;
-    margin-bottom: 25px;
-    margin-left: -100px;
+    margin-bottom: 50px;
+    margin-left: 10px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 150px 259.8px 150px;
     border-color: transparent transparent yellow transparent;
-  }
+}
 
-  .triangle3 {
-    padding-top: 2px;
-    margin-bottom: 10px;
-    margin-left: -100px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 150px 259.8px 150px;
-    border-color: transparent transparent forestgreen transparent;
-  }
+.triangle3 {
+  display: flex;
+  padding-top: -50px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 250px 400px 250px;
+  border-color: transparent transparent black transparent;
+}
 
 }
 
@@ -141,17 +133,17 @@ main {
     color: red;
     padding-top: 20px;
     margin-bottom: 5px;
-    margin-left: -100px;
+    margin-left: -32px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 150px 259.8px 150px;
+    border-width: solid;
+    border-width: 0 75px 150px 75px;
     border-color: transparent transparent red transparent;
   }
 
-  }
-
   .triangle2 {
+    display: block;
     padding-top: 20px;
     margin-bottom: 25px;
     margin-left: -100px;
@@ -159,13 +151,15 @@ main {
     height: 0;
     border-style: solid;
     border-width: 0 150px 259.8px 150px;
-    border-color: transparent transparent yellow transparent;
+    border-color: transparent transparent black transparent;
   }
 
   .triangle3 {
-    padding-top: 2px;
-    margin-bottom: 50px;
-    margin-left: -100px;
+    display: none;
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 700px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -173,4 +167,13 @@ main {
     border-color: transparent transparent forestgreen transparent;
   }
 
+  .go{
+    font-family: 'Anton', sans-serif;
+    font-size: 200px;
+    position: relative;
+    color: black;
+    padding-top: 140px;
+    margin-bottom: 100px;
+    margin-left: -90px;
+  }
 }
