@@ -1,4 +1,34 @@
   .background{
     padding-top: 275px;
-    color: orangered;
   }
+
+body{
+  background-color:aliceblue;
+}
+
+.back{
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.title{
+  font-size: 50px;
+  font-family: 'Shrikhand', cursive;
+  color: midnightblue;
+  margin-left: 200px;
+}
+
+.link{
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+  margin-left:200px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.link:hover{
+  font-size: 21px;
+}

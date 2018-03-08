@@ -1,4 +1,65 @@
 .background{
-  padding-top: 300px;
+  background-color:aliceblue;
+  text-align:center;
+  padding-bottom: 200px;
+  margin-left: 0px;
+}
+
+
+.page{
+  font-family: 'Shrikhand', cursive;
+  margin-left: -500px;
+  padding-top: 200px;
   color: oliveDrab;
+}
+
+.title{
+  font-family: 'Shrikhand', cursive;
+  font-size: 50px;
+  margin-left: 500px;
+  padding-top: 120px;
+  color: oliveDrab;
+}
+
+.link1{
+  font-size: 20px;
+  font-family: 'Shrikhand', cursive;
+  margin-left: 500px;
+  margin-top: 50px;
+  padding-top: -100px;
+  color: oliveDrab;
+    border: 2px solid oliveDrab;
+    color: white;
+    padding: 15px 32px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.link2{
+  font-size: 20px;
+  font-family: 'Shrikhand', cursive;
+  margin-left: 60px;
+  padding-top: -100px;
+  color: oliveDrab;
+    border: 2px solid oliveDrab;
+    color: white;
+    padding: 15px 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.link2:hover {
+    background-color: oliveDrab;
+    color: white;
+}
+
+.link1:hover {
+    background-color: oliveDrab;
+    color: white;
 }
