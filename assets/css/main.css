@@ -1,7 +1,7 @@
 .background{
   background-color:aliceblue;
   text-align:center;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   margin-left: 0px;
 }
 
@@ -18,6 +18,14 @@
   font-size: 50px;
   margin-left: 500px;
   padding-top: 120px;
+  color: oliveDrab;
+}
+
+.name{
+  font-family: 'Shrikhand', cursive;
+  font-size: 20px;
+  margin-left: 500px;
+  padding-top: 10px;
   color: oliveDrab;
 }
 
