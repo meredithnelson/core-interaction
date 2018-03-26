@@ -1,0 +1,35 @@
+.background{
+    padding-top: 250px;
+    color: #ffaa00;
+    font-size: 20px;
+  }
+.back{
+  font-size: 20px;
+  margin-left: 5px;
+  font-family:'Quicksand', sans-serif;
+}
+
+
+body {
+  background-color: #e6f7ff;
+}
+
+.title{
+  font-size: 50px;
+  font-family: 'Shrikhand', cursive;
+  margin-left: 250px;
+}
+
+.link{
+  font-size: 30px;
+  margin-left: 250px;
+  font-family:'Quicksand', sans-serif;
+}
+
+a{
+  text-decoration:none;
+}
+
+.link:hover{
+  font-size: 31px;
+}

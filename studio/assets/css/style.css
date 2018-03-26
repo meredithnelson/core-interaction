@@ -1,0 +1,115 @@
+header{
+  font-size: 100px;
+  font-family: 'Shrikhand';
+  color: #ffcc66;
+  background-color: #e6f7ff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header:hover {
+  color: #ffaa00;
+}
+
+a{
+  text-decoration: none;
+}
+
+#slogan{
+  color: #ffaa00;
+  font-family: 'Shrikhand';
+  font-size: 25pt;
+  margin-top:-75px;
+  margin-bottom: 30px;
+  margin-left: 460px;
+  letter-spacing: .3pt;
+}
+
+body {
+  background-color: #e6f7ff;
+}
+
+.containter1{
+  position: absolute;
+  padding-left: 30px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  background-color: #ffaa00;
+  height: 500px;
+  width: 560px;
+}
+
+#button {
+    font-family: 'Shrikhand';
+    border: 2px solid #ffcc66;
+    color: #e6f7ff;
+    padding: 15px 32px;
+    margin-top: 250px;
+    margin-left: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.4s;
+}
+
+#button:hover {
+    background-color: #ffcc66;
+    color: white;
+}
+
+#button1 {
+    font-family: 'Shrikhand';
+    border: 2px solid #ffcc66;
+    color: #e6f7ff;
+    padding: 15px 32px;
+    margin-top: 250px;
+    margin-left: 135px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.4s;
+}
+
+#button1:hover {
+    background-color: #ffcc66;
+    color: white;
+}
+
+.containter2{
+    position: relative;
+    float: right;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    background-color: #ffaa00;
+    height: 500px;
+    width: 560px;
+}
+
+.video {
+  margin-left: -5px;
+}
+
+.arrow {
+  height: 25px;
+  width: 25px;
+  margin-top: 600px;
+  margin-left: 600px;
+  border-radius: 50%;
+  background-color: #ffaa00;
+}
+
+
+.theme{
+  font-family: 'Shrikhand';
+  font-size: 30px;
+  color: #ffaa00;
+  margin-top: 50px;
+  margin-left: 520px;
+  margin-right: 100px;
+}

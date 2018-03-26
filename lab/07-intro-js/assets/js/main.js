@@ -80,3 +80,80 @@ myStudentDebt+= 100;
 console.log('myStudentDebt:', myStudentDebt);
 myStudentDebt++;
 console.log('myStudentDebt:', myStudentDebt);
+
+console.log('');
+
+//ARRAYS
+
+console.log('ARRAYS -');
+
+var myLuckyNumbers = [3, 7, 7, 14, 21];
+console.log('myLuckyNumbers:', myLuckyNumbers);
+console.log(myLuckyNumbers[1]);
+
+console.log('');
+
+//FUNCTIONS
+
+console.log('Functions -');
+
+var squared = function (number) {
+  return number * number
+}
+
+var danny = {
+  name: 'Danny',
+  age: 4,
+  nativeNewYorker: true,
+};
+
+var describeMe = function (danny) {
+  return 'My name is ' + danny.name +
+  '! I am ' + danny.age + ' years old.' +
+  ' If you asked me if Im a native New Yorker my response would be ' + danny.nativeNewYorker
+};
+
+console.log('');
+
+//CONDITIONAL STATEMENTS
+
+console.log('Conditional Statements -');
+
+if (danny.age > 21) {
+  console.log('party time')
+} else if (danny.age > 5) {
+  console.log ('why are you here')
+} else {
+  console.log('not quite yet')
+}
+
+console.log('');
+
+//LOOP
+
+console.log('Loops -');
+var hamburgers = 0
+
+for (var i = 0; hamburgers < 10; i++) {
+  console.log(hamburgers + ' hamburger(s)')
+  hamburgers++;
+}
+
+for (var i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+console.log('how long does it take to get to the center of the tootsie pop?')
+
+for (var licks = 1; licks <=4; licks++) {
+  if (licks == 4) {
+      console.log('CRUNCH!!!')
+  } else {
+      console.log(licks)
+  }
+}
+
+  console.log(licks)
+
+
+console.log('');

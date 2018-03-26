@@ -1,0 +1,28 @@
+.block-1, .block-2, .block-3 {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.block.is-active{
+  padding: 40px;
+  border-radius: 20px;
+  border-color: red
+}
+
+body {
+  position: relative;
+}
+
+.dot {
+  width:10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.block-1:hover,  .block-2:hover, .block-3:hover {
+  border: 1px solid black;
+}
