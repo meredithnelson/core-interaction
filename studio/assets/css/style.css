@@ -38,46 +38,57 @@ body {
   margin-left: 20px;
   margin-bottom: 50px;
   background-color: #ffaa00;
-  height: 500px;
+  height: 332px;
   width: 560px;
+  z-index: 2;
+}
+
+#video{
+  margin-top: -284px;
+  margin-left: -30px;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: absolute;
+  opacity: 0.5;
 }
 
 #button {
     font-family: 'Shrikhand';
-    border: 2px solid #ffcc66;
-    color: #e6f7ff;
+    background-color: #ffcc66;
     padding: 15px 32px;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 150px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     transition-duration: 0.4s;
+    z-index: 3;
+    position: relative;
 }
 
 #button:hover {
-    background-color: #ffcc66;
-    color: white;
+    background-color: #ffaa00;
 }
 
 #button1 {
     font-family: 'Shrikhand';
-    border: 2px solid #ffcc66;
-    color: #e6f7ff;
+    background-color: #ffcc66;
     padding: 15px 32px;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 135px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     transition-duration: 0.4s;
+    position: relative;
 }
 
+
 #button1:hover {
-    background-color: #ffcc66;
-    color: white;
+    background-color: #ffaa00;
 }
 
 .containter2{
@@ -87,18 +98,26 @@ body {
     margin-right: 20px;
     margin-bottom: 50px;
     background-color: #ffaa00;
-    height: 500px;
+    height: 332px;
     width: 560px;
+    position: relative;
+    z-index: 100;
 }
 
-.video {
-  margin-left: -5px;
+#video2{
+  margin-top: -284px;
+  margin-left: -30px;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: absolute;
+  opacity: 0.5;
 }
 
 .arrow {
   height: 25px;
   width: 25px;
-  margin-top: 600px;
+  margin-top: 420px;
   margin-left: 600px;
   border-radius: 50%;
   background-color: #ffaa00;

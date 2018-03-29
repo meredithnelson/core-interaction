@@ -1,10 +1,17 @@
+body{
+  background-color: #e6f7ff
+}
+
 #image1{
   color:navy;
-  padding-bottom: 70px;
-  padding-left: 20px;
-  padding-right: 60px;
-  float:left;
+  position: absolute;
+}
 
+#image2{
+  color:navy;
+  padding-left: 575px;
+  padding-right: 60px;
+  position: relative;
 }
 
 #video{
@@ -13,20 +20,21 @@
 }
 
 #title{
+  margin-left: 40px;
   color:crimson;
   font-size: 30pt;
   padding-bottom: 0px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Shrikhand';
 }
 
 #body{
   font-size: 18pt;
   color: grey;
   display: inline-block;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin-left: 70px;
-  margin-right: 90px;
-
+  margin-right: 400px;
+  margin-top: 200px;
 }
 
 #articles{
@@ -34,7 +42,7 @@
   color: Navy;
   display: inline-inline-block;
   float: left;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin-left: 70px;
   margin-right: 90px;
   font-weight: bold;
@@ -46,19 +54,22 @@
   font-style: italic;
   padding:10px;
   margin-left: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #thepower{
-  padding-left: 30px;
-  padding-top: 20px;
+  padding-left: 40px;
+  padding-top: 1px;
   padding-bottom: 30px;
-  font-size: 30px;
+  font-size: 60px;
   color: crimson;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #date{
-  font-size: 12px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: -60px;
+  color: Navy;
+  margin-left: 40px;
 }
