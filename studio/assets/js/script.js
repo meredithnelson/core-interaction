@@ -1,9 +1,9 @@
-var figure = $(".video").hover( hoverVideo, hideVideo );
+var myVideo=document.getElementById("video1");
 
-function hoverVideo(e) {
-    $('video', this).get(0).play();
-}
+function Pause() {myVideo.pause();}
+function Play()  {if (myVideo.paused)myVideo.play();}
 
-function hideVideo(e) {
-    $('video', this).get(0).pause();
-}
+var myVideo=document.getElementById("video2");
+
+function Pause() {myVideo.pause();}
+function Play()  {if (myVideo.paused)myVideo.play();}

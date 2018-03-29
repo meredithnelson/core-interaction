@@ -1,11 +1,19 @@
+a{
+  text-decoration: none;
+}
+
+body {
+  background-color: #e6f7ff;
+}
+
 header{
   font-size: 100px;
   font-family: 'Shrikhand';
   color: #ffcc66;
-  background-color: #e6f7ff;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
-  margin-right: 90px;
+  margin-left: 70px;
+  margin-right: 20px;
   display: flex;
   justify-content: flex-end;
 }
@@ -14,22 +22,43 @@ header:hover {
   color: #ffaa00;
 }
 
-a{
-  text-decoration: none;
-}
-
 #slogan{
   color: #ffaa00;
-  font-family: 'Shrikhand';
+  font-family: 'Archivo Black', sans-serif;
   font-size: 25pt;
-  margin-top:-75px;
+  margin-top:-70px;
   margin-bottom: 30px;
-  margin-left: 460px;
-  letter-spacing: .3pt;
+  margin-left: 400px;
 }
 
-body {
-  background-color: #e6f7ff;
+.circle {
+  height: 25px;
+  width: 25px;
+  margin-top: 465px;
+  margin-left: 620px;
+  border-radius: 0%;
+  background-color: #ffaa00;
+}
+
+
+.theme-title{
+  font-family: 'Archivo Black', sans-serif;
+  color: #ffaa00;
+  font-size: 50px;
+  margin-top: 110px;
+  margin-left: 350px;
+  margin-right: 200px;
+}
+
+.theme{
+  font-family: 'Shrikhand';
+  font-size: 25px;
+  color: #ffaa00;
+  margin-top: 80px;
+  margin-left: 250px;
+  margin-right: 200px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 .containter1{
@@ -41,55 +70,6 @@ body {
   height: 332px;
   width: 560px;
   z-index: 2;
-}
-
-#video{
-  margin-top: -284px;
-  margin-left: -30px;
-  position: relative;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  position: absolute;
-  opacity: 0.5;
-}
-
-#button {
-    font-family: 'Shrikhand';
-    background-color: #ffcc66;
-    padding: 15px 32px;
-    margin-top: 150px;
-    margin-left: 150px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    transition-duration: 0.4s;
-    z-index: 3;
-    position: relative;
-}
-
-#button:hover {
-    background-color: #ffaa00;
-}
-
-#button1 {
-    font-family: 'Shrikhand';
-    background-color: #ffcc66;
-    padding: 15px 32px;
-    margin-top: 150px;
-    margin-left: 400px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    transition-duration: 0.4s;
-    position: relative;
-    z-index: 4;
-}
-
-
-#button1:hover {
-    background-color: #ffaa00;
 }
 
 .containter2{
@@ -104,6 +84,20 @@ body {
     position: relative;
     z-index: 100;
 }
+  #play{
+    margin-left: 0;
+  }
+
+
+#video1{
+  margin-top: -284px;
+  margin-left: -30px;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  position: absolute;
+  opacity: 0.5;
+}
 
 #video2{
   margin-top: -284px;
@@ -115,21 +109,41 @@ body {
   opacity: 0.5;
 }
 
-.arrow {
-  height: 25px;
-  width: 25px;
-  margin-top: 420px;
-  margin-left: 600px;
-  border-radius: 50%;
-  background-color: #ffaa00;
+#button1 {
+    font-family: 'Shrikhand';
+    background-color: #ffcc66;
+    padding: 15px 32px;
+    margin-top: 150px;
+    margin-left: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    z-index: 3;
+    position: relative;
+}
+
+#button1:hover {
+    background-color: #ffaa00;
+}
+
+#button2 {
+    font-family: 'Shrikhand';
+    background-color: #ffcc66;
+    padding: 15px 32px;
+    margin-top: 150px;
+    margin-left: 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    position: relative;
+    z-index: 4;
 }
 
 
-.theme{
-  font-family: 'Shrikhand';
-  font-size: 30px;
-  color: #ffaa00;
-  margin-top: 50px;
-  margin-left: 520px;
-  margin-right: 100px;
+#button2:hover {
+    background-color: #ffaa00;
 }
