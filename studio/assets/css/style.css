@@ -77,13 +77,14 @@ body {
     background-color: #ffcc66;
     padding: 15px 32px;
     margin-top: 150px;
-    margin-left: 135px;
+    margin-left: 400px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     transition-duration: 0.4s;
     position: relative;
+    z-index: 4;
 }
 
 
