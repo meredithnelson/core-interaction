@@ -27,7 +27,7 @@ header:hover {
   font-family: 'Archivo Black', sans-serif;
   font-size: 25pt;
   margin-top:-70px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-left: 400px;
 }
 
@@ -42,19 +42,19 @@ header:hover {
 
 
 .theme-title{
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Shrikhand';
   color: #ffaa00;
-  font-size: 50px;
+  font-size: 55px;
   margin-top: 110px;
   margin-left: 350px;
   margin-right: 200px;
 }
 
 .theme{
-  font-family: 'Shrikhand';
-  font-size: 25px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
   color: #ffaa00;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 250px;
   margin-right: 200px;
   padding-bottom: 40px;
@@ -84,10 +84,10 @@ header:hover {
     position: relative;
     z-index: 100;
 }
-  #play{
-    margin-left: 0;
-  }
 
+#video{
+  margin-top: 0px;
+}
 
 #video1{
   margin-top: -284px;

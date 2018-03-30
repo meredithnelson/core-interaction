@@ -1,9 +1,17 @@
-var myVideo=document.getElementById("video1");
+var video1 = document.querySelector('#video1')
 
-function Pause() {myVideo.pause();}
-function Play()  {if (myVideo.paused)myVideo.play();}
+video1.addEventListener('mouseover', function() {
+    video1.play()
+})
+video1.addEventListener('mouseout', function() {
+    video1.pause()
+})
 
-var myVideo=document.getElementById("video2");
+var video2 = document.querySelector('#video2')
 
-function Pause() {myVideo.pause();}
-function Play()  {if (myVideo.paused)myVideo.play();}
+video2.addEventListener('mouseover', function() {
+    video2.play()
+})
+video2.addEventListener('mouseout', function() {
+    video2.pause()
+})

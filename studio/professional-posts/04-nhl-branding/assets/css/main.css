@@ -40,12 +40,12 @@ img {
 
 .left {
   flex: 1;
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .right {
   flex: 3;
-  background-color: grey;
+  background-color: white;
 }
 
 .smallBox {
@@ -55,6 +55,7 @@ img {
 
 .bigBox {
   height: 100%;
+  max-width: 100%;
 }
 
 #video{
