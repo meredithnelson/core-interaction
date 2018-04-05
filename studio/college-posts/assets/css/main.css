@@ -1,4 +1,4 @@
-.background{
+.title-page-college{
     padding-top: 250px;
     color: #ffaa00;
     font-size: 20px;
@@ -11,25 +11,36 @@
 
 
 body {
-  background-color: #e6f7ff;
+  background-color: #222629;
 }
 
-.title{
-  font-size: 50px;
-  font-family: 'Shrikhand', cursive;
+.title-college{
+  margin-top: -40px;
+  font-size: 90px;
+  font-family: 'Archivo Black', sans-serif;
   margin-left: 250px;
 }
 
-.link{
+.title-slogan-college{
+  font-size:40px;
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  margin-left: 450px;
+  margin-top: -33px;
+}
+
+.link-college{
+  color:white;
   font-size: 30px;
   margin-left: 250px;
   font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
 }
 
 a{
   text-decoration:none;
 }
 
-.link:hover{
+.link-college:hover{
   font-size: 31px;
 }

@@ -1,8 +1,9 @@
-.background{
+.background-professional{
     padding-top: 250px;
     color: #ffaa00;
     font-size: 20px;
   }
+
 .back{
   font-size: 20px;
   margin-left: 5px;
@@ -11,16 +12,25 @@
 
 
 body {
-  background-color: #e6f7ff;
+  background-color: #222629;
 }
 
-.title{
-  font-size: 50px;
-  font-family: 'Shrikhand', cursive;
+.title-page-professional{
+  margin-top: -40px;
+  font-size: 90px;
+  font-family: 'Archivo Black', sans-serif;
   margin-left: 250px;
 }
 
-.link{
+.title-slogan-professional{
+  font-size:40px;
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  margin-left: 700px;
+  margin-top: -33px;
+}
+
+.link-prof{
   font-size: 30px;
   margin-left: 250px;
   font-family:'Quicksand', sans-serif;
