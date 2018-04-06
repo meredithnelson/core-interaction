@@ -19,8 +19,8 @@
       <div class="containter1">
 
         <div id="video-homepage">
-          <div onmouseover="Play()" onmouseout="Pause()">
-          <video id="video1" width="590" height="900" muted>
+          <div>
+          <video id="video1" width="590" muted>
            <source src="media/alabama.mp4" type="video/mp4"/>
            <source src="media/alabama.ogg" type="video/ogg"/>
           </video>
@@ -37,8 +37,8 @@
       <div class="containter2">
 
         <div id="video">
-          <div onmouseover="Play()" onmouseout="Pause()">
-          <video id="video2" width="590" height="900" muted>
+          <div>
+          <video id="video2" width="590" muted>
            <source src="media/nhl-video.mp4" type="video/mp4"/>
            <source src="media/nhl-video.ogg" type="video/ogg"/>
           </video>
@@ -52,7 +52,7 @@
 
     <section>
 
-    <div class= "circle"></div>
+    <div class= "circle" onclick="scrollToBottom()"></div>
 
     <div class="theme-title">BRANDING & IDENTIY</div>
 
@@ -69,7 +69,11 @@
 
     </section>
 
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
+
 
   </body>
 </html>

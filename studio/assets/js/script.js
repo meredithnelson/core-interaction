@@ -15,3 +15,11 @@ video2.addEventListener('mouseover', function() {
 video2.addEventListener('mouseout', function() {
     video2.pause()
 })
+
+/*scrolling on homepage*/
+
+function scrollToBottom(){
+  $('html, body').animate({
+      scrollTop:$('.theme-title').offset().top
+  }, 500)
+}

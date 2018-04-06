@@ -90,7 +90,6 @@ header:hover {
 }
 
 #video1{
-  margin-top: -284px;
   margin-left: -30px;
   position: relative;
   -webkit-filter: grayscale(100%);
@@ -100,7 +99,6 @@ header:hover {
 }
 
 #video2{
-  margin-top: -284px;
   margin-left: -30px;
   position: relative;
   -webkit-filter: grayscale(100%);
@@ -248,9 +246,9 @@ img {
 .footer{
   margin-top: 10px;
   background-color: #ffaa00;
-  padding-left: 400px;
+  /*padding-left: 400px;
   padding-right: 200px;
-  padding-bottom: 10px;
+  padding-bottom: 10px;*/
   display: flex;
 
 }
@@ -259,6 +257,7 @@ img {
   margin-left: -20px;
   font-size: 15pt;
   color: white;
+  text-align: center;
   font-family: 'Archivo Black', sans-serif;
 }
 
@@ -282,15 +281,25 @@ img {
   margin-top: -60px;
   margin-left: 290px;
   font-size: 0px;
+  text-align: center;
   color: white;
   font-size: 30px;
   font-family: 'Archivo Black', sans-serif;
+}
+
+#backPost a:hover{
+  color:red;
+}
+
+.articles p{
+  display: inline-block;
 }
 
 .titlePageCollege{
     padding-top: 250px;
     color: #ffaa00;
     font-size: 20px;
+    text-align: center;
   }
 .back{
   font-size: 20px;
@@ -336,14 +345,15 @@ body {
 .linkCollege{
   color:white;
   font-size: 30px;
-  margin-left: 250px;
+  padding: 10px;
   font-family: 'Quicksand', sans-serif;
   margin-top: 50px;
-  float: left;
+  display: inline-block;
 }
 
 a{
   text-decoration:none;
+  color:white;
 }
 
 .linkCollege:hover{
