@@ -125,7 +125,7 @@ header:hover {
 }
 
 #button1:hover {
-    background-color: #61892F;
+    background-color: #ffaa00;
 }
 
 #button2 {
@@ -145,7 +145,7 @@ header:hover {
 
 
 #button2:hover {
-    background-color: #ffaa00;
+    background-color: #ffcc66;
 }
 
 
@@ -304,18 +304,33 @@ body {
 }
 
 .titleCollege{
-  margin-top: -90px;
-  font-size: 90px;
-  font-family: 'Archivo Black', sans-serif;
-  margin-left: 250px;
+  margin-top: -170px;
+  font-size: 200px;
+  font-family: 'Shrikhand';
+  margin-left: 130px;
+}
+
+.titleProfessional{
+  margin-top: -100px;
+  font-size: 120px;
+  font-family: 'Shrikhand';
+  margin-left: 150px;
 }
 
 .titleSloganCollege{
-  font-size:40px;
+  font-size:80px;
   font-family: 'Archivo Black', sans-serif;
   color: white;
-  margin-left: 450px;
-  margin-top: -33px;
+  margin-left: 550px;
+  margin-top: -90px;
+}
+
+.titleSloganProfessional{
+  font-size:80px;
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  margin-left: 550px;
+  margin-top: -50px;
 }
 
 .linkCollege{
@@ -323,7 +338,8 @@ body {
   font-size: 30px;
   margin-left: 250px;
   font-family: 'Quicksand', sans-serif;
-  margin-top: 20px;
+  margin-top: 50px;
+  float: left;
 }
 
 a{
