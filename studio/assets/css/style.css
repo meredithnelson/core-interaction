@@ -251,6 +251,15 @@ img {
   font-family:'Archivo Black', sans-serif;
 }
 
+#titlePost-Brandiose{
+  margin-left: 30px;
+  color:#ffaa00;
+  font-size: 60pt;
+  padding-top: 40px;
+  line-height: 170px;
+  font-family:'Archivo Black', sans-serif;
+}
+
 #sloganPost{
   margin-left: 60px;
   margin-top: -270px;
@@ -279,6 +288,14 @@ img {
   margin-left: 420px;
   margin-top: -185px;
   font-size: 60px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#sloganPost-Brandiose{
+  margin-left: 380px;
+  margin-top: -160px;
+  font-size: 45px;
   color: white;
   font-family: 'Quicksand', sans-serif;
 }
