@@ -16,3 +16,12 @@ smallImageTwo.addEventListener('mouseover', function () {
 smallImageThree.addEventListener('mouseover', function () {
   bigImage.src = smallImageThree.src
 })
+
+var videoPost = document.querySelector('#videoPost')
+
+videoPost.addEventListener('mouseover', function() {
+    videoPost.play()
+})
+videoPost.addEventListener('mouseout', function() {
+    videoPost.pause()
+})

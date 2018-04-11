@@ -211,7 +211,9 @@ img {
 
 #videoPost{
   float:none;
-  padding-left: 200px;
+  margin-left: 200px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   max-width: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -318,7 +320,8 @@ img {
 
 .articles{
   display: inline-block;
-  margin-left: 50px;
+  padding-top: 10px;
+  margin-left: 80px;
   margin-bottom: 15px;
   font-size: 15pt;
   color: white;
@@ -328,10 +331,20 @@ img {
 
 #articlesTitle{
   margin-top: 15px;
-  margin-left: 90px;
+  margin-left: 50px;
   margin-bottom: 15px;
-  font-size: 25px;
+  font-size: 30px;
   color: #222629;
+}
+
+#linksPost{
+  font-size: 20px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+#linkPost a:hover{
+  font-size: 21px;
 }
 
 #pullquotePost{
