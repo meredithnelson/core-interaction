@@ -213,7 +213,7 @@ img {
   float:none;
   margin-left: 200px;
   padding-bottom: 40px;
-  padding-top: 40px;
+  padding-top: 20px;
   max-width: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -337,9 +337,41 @@ img {
   color: #222629;
 }
 
+#articlesTitle-brandiose{
+  margin-top: 15px;
+  margin-left: 400px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #222629;
+}
+
+#articlesTitle-Branding{
+  margin-top: 15px;
+  margin-left: 400px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #222629;
+}
+
+#articlesTitle-nfl{
+  margin-top: 15px;
+  margin-left: 130px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #222629;
+}
+
+#articlesTitle-nhl{
+  margin-top: 15px;
+  margin-left: 130px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #222629;
+}
+
 #linksPost{
-  font-size: 30px;
-  margin-left: 150px;
+  font-size: 20px;
+  margin-left: 350px;
   padding-bottom: 20px;
 }
 
