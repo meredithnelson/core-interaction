@@ -7,14 +7,15 @@ body {
 }
 
 header{
-  font-size: 100px;
-  font-family: 'Shrikhand';
-  color: #ffcc66;
-  margin-top: 20px;
+  font-size: 120px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 70px;
   margin-right: 20px;
   display: flex;
+  position: relative;
   justify-content: flex-end;
 }
 
@@ -25,39 +26,42 @@ header:hover {
 #slogan{
   color: #ffaa00;
   font-family: 'Archivo Black', sans-serif;
-  font-size: 25pt;
-  margin-top:-70px;
+  font-size: 30pt;
+  margin-top:-65px;
   margin-bottom: 60px;
-  margin-left: 400px;
+  margin-left: 380px;
 }
 
 .circle {
-  height: 25px;
-  width: 25px;
-  margin-top: 465px;
-  margin-left: 620px;
-  border-radius: 10%;
-  background-color: #ffaa00;
+  margin-top: 410px;
+  margin-left: 600px;
+  font-size: 80px;
+  color:  white;
+}
+
+.circle:hover{
+  color: #ffaa00;
 }
 
 .theme-title{
-  font-family: 'Shrikhand';
+  font-family: 'Archivo Black', sans-serif;
   color: #ffaa00;
-  font-size: 55px;
-  margin-top: 155px;
-  margin-left: 320px;
+  font-size: 120px;
+  line-height: 100px;
+  margin-top: 350px;
+  margin-left: 100px;
   margin-right: 200px;
 }
 
 .theme{
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 35px;
-  color: #ffaa00;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
   margin-top: 50px;
-  margin-left: 230px;
-  margin-right: 200px;
+  margin-left: 100px;
+  margin-right: 550px;
   padding-bottom: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .containter1{
@@ -107,7 +111,7 @@ header:hover {
 }
 
 #button1 {
-    font-family: 'Shrikhand';
+    font-family: 'Open Sans', sans-serif;
     background-color: #ffaa00;
     padding: 15px 32px;
     margin-top: 150px;
@@ -123,10 +127,11 @@ header:hover {
 
 #button1:hover {
     background-color: #ffaa00;
+    font-style: italic;
 }
 
 #button2 {
-    font-family: 'Shrikhand';
+    font-family: 'Open Sans', sans-serif;
     background-color: #ffaa00;
     padding: 15px 32px;
     margin-top: 150px;
@@ -279,11 +284,11 @@ img {
 }
 
 #sloganPost-College-Branding{
-  margin-left: 250px;
-  margin-top: -160px;
-  font-size: 60px;
+  margin-left: 200px;
+  margin-top: -145px;
+  font-size: 50px;
   color: white;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #sloganPost-160{
@@ -306,7 +311,7 @@ img {
   font-size: 18pt;
   color: white;
   display: inline-block;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-left: 70px;
   margin-right: 400px;
   margin-top: 10px;

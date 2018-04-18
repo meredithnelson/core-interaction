@@ -21,5 +21,5 @@ video2.addEventListener('mouseout', function() {
 function scrollToBottom(){
   $('html, body').animate({
       scrollTop:$('.theme-title').offset().top
-  }, 500)
+  }, 550)
 }
