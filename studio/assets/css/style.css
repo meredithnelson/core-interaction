@@ -1,5 +1,6 @@
 a{
   text-decoration: none;
+  color: white;
 }
 
 body {
@@ -10,7 +11,7 @@ header{
   font-size: 120px;
   font-family: 'Open Sans', sans-serif;
   color: white;
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 30px;
   margin-left: 70px;
   margin-right: 20px;
@@ -33,9 +34,9 @@ header:hover {
 }
 
 .circle {
-  margin-top: 410px;
+  margin-top: -85px;
   margin-left: 600px;
-  font-size: 50px;
+  font-size: 75px;
   color:  white;
 }
 
@@ -44,22 +45,25 @@ header:hover {
 }
 
 .arrows-1 {
+  position: fixed;
   font-size: 70px;
   color:white;
-  margin-left: 1060px;
+  margin-left: 1050px;
   margin-top: -55px;
   display: flex;
 }
 
 .arrows-1 a:hover{
   color: #ffaa00;
+  position: fixed;
 }
 
 .arrows-2 {
+  position: fixed;
   font-size: 70px;
   color:white;
-  margin-left: 1020px;
-  margin-top: -81px;
+  margin-left: 1120px;
+  margin-top: -55px;
   padding-right: 80px;
   display: flex;
   float: right;
@@ -67,6 +71,7 @@ header:hover {
 
 .arrows-2 a:hover{
   color: #ffaa00;
+  position: fixed;
 }
 
 #sports-branding{
@@ -474,10 +479,6 @@ img {
   text-decoration: underline;
 }
 
-
-body {
-  background-color: #222629;
-}
 
 .titleCollege{
   margin-top: -170px;
