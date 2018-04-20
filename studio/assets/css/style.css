@@ -35,11 +35,50 @@ header:hover {
 .circle {
   margin-top: 410px;
   margin-left: 600px;
-  font-size: 80px;
+  font-size: 50px;
   color:  white;
 }
 
 .circle:hover{
+  color: #ffaa00;
+}
+
+.arrows-1 {
+  font-size: 70px;
+  color:white;
+  margin-left: 1060px;
+  margin-top: -55px;
+  display: flex;
+}
+
+.arrows-1 a:hover{
+  color: #ffaa00;
+}
+
+.arrows-2 {
+  font-size: 70px;
+  color:white;
+  margin-left: 1020px;
+  margin-top: -81px;
+  padding-right: 80px;
+  display: flex;
+  float: right;
+}
+
+.arrows-2 a:hover{
+  color: #ffaa00;
+}
+
+#sports-branding{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 750px;
+  display: flex;
+}
+
+#sports-branding:hover{
   color: #ffaa00;
 }
 
@@ -235,7 +274,7 @@ img {
   margin-left: 30px;
   color:#ffaa00;
   font-size: 60pt;
-  padding-top: 50px;
+  padding-top: 30px;
   line-height: 140px;
   font-family:'Archivo Black', sans-serif;
 }
