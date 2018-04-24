@@ -25,3 +25,16 @@ videoPost.addEventListener('mouseover', function() {
 videoPost.addEventListener('mouseout', function() {
     videoPost.pause()
 })
+
+// Insert your actual API request URL below
+fetch('https://api.suredbits.com/sport/version/searchParameter/subParameters')
+    .then(function(response) {
+        // Get the response and format it to JSON
+        return response.json();
+    })
+    .then(function(jsonData) {
+        // log the data
+        render(jsonData);
+    });
+
+  

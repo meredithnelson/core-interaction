@@ -5,6 +5,7 @@ a{
 
 body {
   background-color: #222629;
+  width: 100%;
 }
 
 header{
@@ -34,7 +35,7 @@ header:hover {
 }
 
 .circle {
-  margin-top: -85px;
+  margin-top: 420px;
   margin-left: 600px;
   font-size: 75px;
   color:  white;
@@ -45,25 +46,22 @@ header:hover {
 }
 
 .arrows-1 {
-  position: fixed;
   font-size: 70px;
   color:white;
-  margin-left: 1050px;
+  margin-left: 1070px;
   margin-top: -55px;
   display: flex;
 }
 
 .arrows-1 a:hover{
   color: #ffaa00;
-  position: fixed;
 }
 
 .arrows-2 {
-  position: fixed;
   font-size: 70px;
   color:white;
   margin-left: 1120px;
-  margin-top: -55px;
+  margin-top: -82px;
   padding-right: 80px;
   display: flex;
   float: right;
@@ -71,7 +69,6 @@ header:hover {
 
 .arrows-2 a:hover{
   color: #ffaa00;
-  position: fixed;
 }
 
 #sports-branding{
@@ -254,6 +251,10 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.bigImage{
+  height: 560px;
 }
 
 .smallBox:last-child{
@@ -449,6 +450,14 @@ img {
 #articlesTitle-MLB{
   margin-top: 15px;
   margin-left: -530px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #222629;
+}
+
+#articlesTitle-nba{
+  margin-top: 15px;
+  margin-left: -60px;
   margin-bottom: 15px;
   font-size: 40px;
   color: #222629;
