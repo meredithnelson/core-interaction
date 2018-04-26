@@ -1,14 +1,10 @@
 a{
   text-decoration: none;
   color: white;
-    width:100%;
-    min-width:1000px;
-    height:auto;
 }
 
 body {
   background-color: #222629;
-  width: 100%;
 }
 
 header{
@@ -34,12 +30,12 @@ header:hover {
   font-size: 30pt;
   margin-top:-65px;
   margin-bottom: 60px;
-  margin-left: 380px;
+  margin-left: 30%;
 }
 
 .circle {
-  margin-top: 420px;
-  margin-left: 600px;
+  margin-top: 33%;
+  margin-left: 47%;
   font-size: 75px;
   color:  white;
 }
@@ -63,9 +59,8 @@ header:hover {
 .arrows-2 {
   font-size: 70px;
   color:white;
-  margin-left: 1120px;
+  margin-right: 5%;
   margin-top: -82px;
-  padding-right: 80px;
   display: flex;
   float: right;
 }
@@ -111,7 +106,7 @@ header:hover {
 .containter1{
   position: absolute;
   padding-left: 30px;
-  margin-left: 20px;
+  margin-left: 2%;
   margin-bottom: 50px;
   background-color: #ffaa00;
   height: 332px;
@@ -123,7 +118,7 @@ header:hover {
     position: relative;
     float: right;
     padding-left: 30px;
-    margin-right: 20px;
+    margin-right: 2%;
     margin-bottom: 50px;
     background-color: #ffaa00;
     height: 332px;
@@ -137,7 +132,7 @@ header:hover {
 }
 
 #video1{
-  margin-left: -30px;
+  margin-left: -5.1%;
   position: relative;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -146,7 +141,7 @@ header:hover {
 }
 
 #video2{
-  margin-left: -30px;
+  margin-left: -5.1%;
   position: relative;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
