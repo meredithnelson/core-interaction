@@ -28,12 +28,12 @@ videoPost.addEventListener('mouseout', function() {
 
 // Insert your actual API request URL below
 // Pittsburgh Steelers Roster
-fetch('http://api.suredbits.com/nfl/v0/team/PIT/roster')
+fetch('https://api.suredbits.com/nfl/v0/team/PIT/roster')
     .then(function(response) {
         return response.json();
     })
     .then(function(jsonData) {
-        console.log(jsonData);
+        render(jsonData);
     });
 
 //RENDER FUNTION SETUP
@@ -41,34 +41,6 @@ fetch('http://api.suredbits.com/nfl/v0/team/PIT/roster')
 
       var fullName = document.querySelector('.fullName')
 
-
-// Insert your actual API request URL below
-//Chicago Bulls
-fetch('http://api.suredbits.com/nfl/v0/team/chi/roster')
-        .then(function(response) {
-            return response.json();
-        })
-        .then(function(jsonData) {
-            console.log(jsonData);
-        });
-
-//RENDER FUNTION SETUP
-//--------------------
-
-        var fullName = document.querySelector('.fullName')
-
-
-// Insert your actual API request URL below
-//LA Rams
-fetch('http://api.suredbits.com/nfl/v0/team/LA/roster')
-                .then(function(response) {
-                    return response.json();
-                })
-                .then(function(jsonData) {
-                    console.log(jsonData);
-                });
-
-//RENDER FUNTION SETUP
-//--------------------
-
-      var fullName = document.querySelector('.fullName')
+      function render (data) {
+        document.querySelector('https://api.suredbits.com/nfl/v0/team/PIT/roster')
+      }

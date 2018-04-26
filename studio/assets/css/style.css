@@ -105,11 +105,11 @@ header:hover {
 
 .containter1{
   position: absolute;
-  padding-left: 30px;
+  padding-left: 2.4%;
   margin-left: 2%;
-  margin-bottom: 50px;
+  margin-bottom: 1%;
   background-color: #ffaa00;
-  height: 332px;
+  height: 47.1%;
   width: 560px;
   z-index: 2;
 }
@@ -117,13 +117,12 @@ header:hover {
 .containter2{
     position: relative;
     float: right;
-    padding-left: 30px;
+    padding-left: 2.3%;
     margin-right: 2%;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
     background-color: #ffaa00;
     height: 332px;
     width: 560px;
-    position: relative;
     z-index: 100;
 }
 
@@ -167,7 +166,6 @@ header:hover {
 #button1 a:hover {
     background-color: #ffaa00;
     color:#222629;
-    ;
 }
 
 #button2 {
