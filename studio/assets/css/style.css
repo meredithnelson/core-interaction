@@ -34,7 +34,7 @@ header:hover {
 }
 
 .circle {
-  margin-top: 33%;
+  margin-top: 10%;
   margin-left: 47%;
   font-size: 75px;
   color:  white;
@@ -109,7 +109,7 @@ header:hover {
   margin-left: 2%;
   margin-bottom: 1%;
   background-color: #ffaa00;
-  height: 47.1%;
+  height: 332px;
   width: 560px;
   z-index: 2;
 }
@@ -123,7 +123,7 @@ header:hover {
     background-color: #ffaa00;
     height: 332px;
     width: 560px;
-    z-index: 100;
+    z-index: 2;
 }
 
 #video-homepage{
@@ -153,7 +153,7 @@ header:hover {
     background-color: #ffaa00;
     padding: 15px 32px;
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 17%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -172,20 +172,20 @@ header:hover {
     font-family: 'Open Sans', sans-serif;
     background-color: #ffaa00;
     padding: 15px 32px;
-    margin-top: 150px;
-    margin-left: 130px;
+    margin-top: 27%;
+    margin-left: 30%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     transition-duration: 0.4s;
     position: relative;
-    z-index: 4;
+    z-index: 10;
 }
 
 
 #button2 a:hover {
-    background-color: #ffcc66;
+    background-color: #ffaa00;
     color:#222629;
 }
 
