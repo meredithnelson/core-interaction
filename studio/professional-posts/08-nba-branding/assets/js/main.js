@@ -106,3 +106,45 @@ clippersDiv.addEventListener('mouseover', function () {
 clippersDiv.addEventListener('mouseout', function () {
 	clippersInfoDiv.style.display = 'none';
 })
+
+
+
+var lakersDiv = document.querySelector('#lakers-button');
+var lakersInfoDiv = document.querySelector('#lakers-info');
+var lakersArenaDiv = document.querySelector('#lakers-arena');
+var lakersLeaugeDiv = document.querySelector('#lakers-league');
+var lakersLocationDiv = document.querySelector('#lakers-location');
+var lakersYearDiv = document.querySelector('#lakers-year');
+
+var teamId = 134867;
+
+// Insert your actual API request URL below
+fetch('https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=' + teamId)
+    .then(function(response) {
+        // Get the response and format it to JSON
+        return response.json();
+    })
+    .then(function(jsonData) {
+        // log the data
+        console.log(jsonData);
+		  renderLakers(jsonData);
+    });
+
+
+function renderLakers(data) {
+	console.log(data.teams[0].strStadium);
+	lakersArenaDiv.innerText = data.teams[0].strStadium;
+  lakersLocationDiv.innerText= data.teams[0].strStadiumLocation;
+	lakersLeaugeDiv.innerText = data.teams[0].strLeague;
+  lakersYearDiv.innerText = data.teams[0].intFormedYear;
+}
+
+
+lakersDiv.addEventListener('mouseover', function () {
+  lakersInfoDiv.style.display = 'block';
+})
+
+
+lakersDiv.addEventListener('mouseout', function () {
+  lakersInfoDiv.style.display = 'none';
+})
