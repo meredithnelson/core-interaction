@@ -61,7 +61,7 @@ header:hover {
   color:white;
   margin-right: 5%;
   margin-top: -82px;
-  display: flex;
+  display:inline-flex;
   float: right;
 }
 
@@ -104,25 +104,24 @@ header:hover {
 }
 
 .containter1{
-  position: absolute;
-  padding-left: 2.4%;
+  position: relative;
   margin-left: 2%;
   margin-bottom: 1%;
-  background-color: #ffaa00;
+  background-color: red;
   height: 332px;
-  width: 560px;
+  width: 49%;
   z-index: 2;
+  float: left;
 }
 
 .containter2{
     position: relative;
-    float: right;
-    padding-left: 2.3%;
+    float: left;
     margin-right: 2%;
     margin-bottom: 1%;
-    background-color: #ffaa00;
+    background-color: black;
     height: 332px;
-    width: 560px;
+    width: 49%;
     z-index: 2;
 }
 
@@ -546,6 +545,7 @@ img {
 }
 
 #golden-state-button{
+  color:#ffaa00;
 }
 
 #clippers-info {
@@ -563,6 +563,7 @@ img {
 }
 
 #clippers-button{
+  color:#ffaa00;
 }
 
 #lakers-info {
@@ -580,6 +581,7 @@ img {
 }
 
 #lakers-button{
+  color:#ffaa00;
 }
 
 #rams-info {
@@ -597,6 +599,7 @@ img {
 }
 
 #rams-button{
+  color:#ffaa00;
 }
 
 #steelers-info {
@@ -614,6 +617,7 @@ img {
 }
 
 #steelers-button{
+  color:#ffaa00;
 }
 
 #penguins-info {
@@ -631,6 +635,7 @@ img {
 }
 
 #penguins-button{
+  color:#ffaa00;
 }
 
 #predators-info {
@@ -648,6 +653,7 @@ img {
 }
 
 #predators-button{
+  color:#ffaa00;
 }
 
 #kings-info {
@@ -665,6 +671,7 @@ img {
 }
 
 #kings-button{
+  color:#ffaa00;
 }
 
 #sox-info {
@@ -673,15 +680,15 @@ img {
   color: white;
   margin-left: 105%;
   margin-right: -30%;
-  margin-top: -35.5%;
+  margin-top: -3.5%;
   padding-left: 1%;
-  padding-top: 1%;
   padding-bottom: 1%;
   z-index: 1;
   border-radius: 6px;
 }
 
 #sox-button{
+  color:#ffaa00;
 }
 
 #nationals-info {
@@ -690,13 +697,15 @@ img {
   color: white;
   margin-left: 105%;
   margin-right: -30%;
-  margin-top: -40.5%;
+  margin-top: -41.5%;
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
-  z-index: 1;
+  z-index: 2;
   border-radius: 6px;
+  float:right;
 }
 
 #nationals-button{
+  color:#ffaa00;
 }

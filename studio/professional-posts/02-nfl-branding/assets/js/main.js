@@ -60,6 +60,7 @@ function renderRams(data) {
 
 ramsDiv.addEventListener('mouseover', function () {
   ramsInfoDiv.style.display = 'block';
+
 })
 
 
