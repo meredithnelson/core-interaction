@@ -59,8 +59,9 @@ header:hover {
 .arrows-2 {
   font-size: 70px;
   color:white;
-  margin-right: 5%;
+  margin-right: -.50%;
   margin-top: -82px;
+  padding-right: 2.5%;
   display:inline-flex;
   float: right;
 }
@@ -340,6 +341,7 @@ img {
 }
 
 #bodyPost{
+  position: relative;
   font-size: 18pt;
   color: white;
   display: inline-block;
@@ -531,6 +533,7 @@ img {
 }
 
 #golden-state-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
@@ -549,6 +552,7 @@ img {
 }
 
 #clippers-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
@@ -567,6 +571,7 @@ img {
 }
 
 #lakers-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
@@ -586,11 +591,12 @@ img {
 
 #rams-info {
 	display: none;
+  position: absolute;
   background-color: #ffaa00;
   color: white;
   margin-left: 100%;
   margin-right: -30%;
-  margin-top: -50%;
+  margin-top: -45%;
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -603,6 +609,7 @@ img {
 }
 
 #steelers-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
@@ -621,12 +628,13 @@ img {
 }
 
 #penguins-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
   margin-right: -30%;
-  margin-top: -45.5%;
+  margin-top: -55.5%;
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -639,6 +647,7 @@ img {
 }
 
 #predators-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
@@ -657,6 +666,7 @@ img {
 }
 
 #kings-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
@@ -675,12 +685,13 @@ img {
 }
 
 #sox-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
   margin-right: -30%;
-  margin-top: -3.5%;
+  margin-top: -48.5%;
   padding-left: 1%;
   padding-bottom: 1%;
   z-index: 1;
@@ -692,12 +703,13 @@ img {
 }
 
 #nationals-info {
+  position: absolute;
 	display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
   margin-right: -30%;
-  margin-top: -41.5%;
+  margin-top: -50.5%;
   padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
