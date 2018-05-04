@@ -730,3 +730,9 @@ img {
 #nationals-button{
   color:#ffaa00;
 }
+
+@media (max-width: 450px) {
+   body {
+       background-color: red !important;
+   }
+}
