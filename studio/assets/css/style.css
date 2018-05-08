@@ -2,48 +2,41 @@ a{
   text-decoration: none;
   color: white;
 }
-
 body {
   background-color: #222629;
 }
-
 header{
   font-size: 120px;
   font-family: 'Open Sans', sans-serif;
   color: white;
   margin-top: 25px;
   margin-bottom: 30px;
-  margin-left: 70px;
-  margin-right: 20px;
+  margin-left: 90px;
+  margin-right: 1%;
   display: flex;
   position: relative;
   justify-content: flex-end;
 }
-
 header:hover {
   color: #ffaa00;
 }
-
 #slogan{
   color: #ffaa00;
   font-family: 'Archivo Black', sans-serif;
   font-size: 30pt;
-  margin-top:-65px;
   margin-bottom: 60px;
   margin-left: 30%;
+  margin-top: -5%;
 }
-
 .circle {
   margin-top: 10%;
   margin-left: 47%;
   font-size: 75px;
   color:  white;
 }
-
 .circle:hover{
   color: #ffaa00;
 }
-
 .arrows-1 {
   font-size: 70px;
   color:white;
@@ -51,11 +44,9 @@ header:hover {
   margin-top: -55px;
   display: flex;
 }
-
 .arrows-1 a:hover{
   color: #ffaa00;
 }
-
 .arrows-2 {
   font-size: 70px;
   color:white;
@@ -65,11 +56,9 @@ header:hover {
   display:inline-flex;
   float: right;
 }
-
 .arrows-2 a:hover{
   color: #ffaa00;
 }
-
 #sports-branding{
   color:white;
   font-family: 'Open Sans', sans-serif;
@@ -78,11 +67,9 @@ header:hover {
   margin-left: 750px;
   display: flex;
 }
-
 #sports-branding:hover{
   color: #ffaa00;
 }
-
 .theme-title{
   font-family: 'Archivo Black', sans-serif;
   color: #ffaa00;
@@ -92,7 +79,6 @@ header:hover {
   margin-left: 100px;
   margin-right: 200px;
 }
-
 .theme{
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -103,29 +89,29 @@ header:hover {
   padding-bottom: 40px;
   text-align: left;
 }
-
-.containter1{
+.containter1 {
   position: relative;
-  margin-left: 2%;
-  margin-bottom: 1%;
-  background-color: red;
-  height: 332px;
-  width: 49%;
-  z-index: 2;
-  float: left;
+    margin-bottom: 1%;
+    background-color: red;
+    height: 339px;
+    width: 50%;
+    margin-right: 3%;
+    z-index: 2;
+    float: left;
+    margin-left: -3%;
+    margin-top: -2;
 }
-
-.containter2{
+.containter2 {
     position: relative;
     float: left;
-    margin-right: 2%;
+    margin-left: 3%;
     margin-bottom: 1%;
-    background-color: black;
-    height: 332px;
-    width: 49%;
+    background-color: blue;
+    height: 373px;
+    width: 43%;
     z-index: 2;
+    margin-top: -2;
 }
-
 #video-homepage{
   margin-top: 0px;
 }
@@ -137,8 +123,8 @@ header:hover {
   filter: grayscale(100%);
   position: absolute;
   opacity: 0.5;
+  width: 95%;
 }
-
 #video2{
   margin-left: -5.1%;
   position: relative;
@@ -146,8 +132,8 @@ header:hover {
   filter: grayscale(100%);
   position: absolute;
   opacity: 0.5;
+  width:120%;
 }
-
 #button1 {
     font-family: 'Open Sans', sans-serif;
     background-color: #ffaa00;
@@ -162,12 +148,10 @@ header:hover {
     z-index: 3;
     position: relative;
 }
-
 #button1 a:hover {
     background-color: #ffaa00;
     color:#222629;
 }
-
 #button2 {
     font-family: 'Open Sans', sans-serif;
     background-color: #ffaa00;
@@ -182,71 +166,56 @@ header:hover {
     position: relative;
     z-index: 10;
 }
-
-
 #button2 a:hover {
     background-color: #ffaa00;
     color:#222629;
 }
-
 .borderPost{
   background-color:#222629;
   margin-top: -120px;
   margin-left: 15px;
   margin-right: 15px;
 }
-
 img {
   max-width: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-
 .containerPost {
   margin-top: 100px;
   display: flex;
   margin-top: -20px;
   padding: 60px;
-
 }
-
 .left, .right {
   padding: 10px;
 }
-
 .left {
   flex: 1;
 }
-
 .right {
   flex: 3;
 }
-
 .smallBox {
   margin-bottom: 10px;
 }
-
 .bigBox {
   height: 400%;
   max-width: 100%;
   height: 543px;
 }
-
 .bigImage, .smallImage {
   vertical-align: bottom;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 .bigImage{
   height: 560px;
 }
-
 .smallBox:last-child{
   margin-bottom: 0;
 }
-
 #videoPost{
   float:none;
   margin-left:75px;
@@ -256,14 +225,12 @@ img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-
 #titlePost{
   margin-left: 30px;
   color:#ffaa00;
   font-size: 100pt;
   font-family:'Archivo Black', sans-serif;
 }
-
 #titlePost-College-Branding{
   margin-left: 30px;
   color:#ffaa00;
@@ -272,7 +239,6 @@ img {
   line-height: 140px;
   font-family:'Archivo Black', sans-serif;
 }
-
 #titlePostMarch{
   margin-left: 30px;
   color:#ffaa00;
@@ -281,7 +247,6 @@ img {
   line-height: 140px;
   font-family:'Archivo Black', sans-serif;
 }
-
 #titlePost-160{
   margin-left: 30px;
   color:#ffaa00;
@@ -290,7 +255,6 @@ img {
   line-height: 170px;
   font-family:'Archivo Black', sans-serif;
 }
-
 #titlePost-Brandiose{
   margin-left: 30px;
   color:#ffaa00;
@@ -299,7 +263,6 @@ img {
   line-height: 170px;
   font-family:'Archivo Black', sans-serif;
 }
-
 #sloganPost{
   margin-left: 60px;
   margin-top: -270px;
@@ -307,7 +270,6 @@ img {
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
-
 #sloganPostMarch{
   margin-left: 190px;
   margin-top: -150px;
@@ -315,7 +277,6 @@ img {
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
-
 #sloganPost-College-Branding{
   margin-left: 200px;
   margin-top: -145px;
@@ -323,7 +284,6 @@ img {
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
-
 #sloganPost-160{
   margin-left: 420px;
   margin-top: -185px;
@@ -331,7 +291,6 @@ img {
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
-
 #sloganPost-Brandiose{
   margin-left: 380px;
   margin-top: -160px;
@@ -339,7 +298,6 @@ img {
   color: white;
   font-family:'Open Sans', sans-serif;
 }
-
 #bodyPost{
   position: relative;
   font-size: 18pt;
@@ -351,12 +309,10 @@ img {
   margin-top: 10px;
   text-align:left;
 }
-
 .footer{
   margin-top: 10px;
   background-color: #ffaa00;
 }
-
 .articles{
   display: inline-block;
   padding-top: 10px;
@@ -367,7 +323,6 @@ img {
   text-align: center;
   font-family: 'Archivo Black', sans-serif;
 }
-
 #articlesTitle{
   margin-top: 15px;
   margin-left: -700px;
@@ -375,16 +330,12 @@ img {
   font-size: 30px;
   color: #222629;
 }
-
 .links-160{
   font-size: 15pt;
-
 }
-
 .links-160 a:hover{
     color:#222629;
 }
-
 #articlesTitle-brandiose{
   margin-top: 15px;
   margin-left: -210px;
@@ -392,14 +343,12 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 #articlesTitle-Branding{
   margin-top: 10px;
   margin-left:-375px;
   font-size: 40px;
   color: #222629;
 }
-
 #articlesTitle-160{
   margin-top: 10px;
   margin-left:-660px;
@@ -407,7 +356,6 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 #articlesTitleDraft{
   margin-top: 1%;
   margin-left:-10%;
@@ -415,17 +363,14 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 .links{
   font-size:25px;
   margin-left: 50px;
   margin-bottom: 10px;
 }
-
 .links a:hover{
   color:#222629;
 }
-
 #articlesTitle-nfl{
   margin-top: 15px;
   margin-left: -650px;
@@ -433,7 +378,6 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 #articlesTitle-nhl{
   margin-top: 15px;
   margin-left: -650px;
@@ -441,7 +385,6 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 #articlesTitle-MLB{
   margin-top: 15px;
   margin-left: -530px;
@@ -449,7 +392,6 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 #articlesTitle-nba{
   margin-top: 15px;
   margin-left: -60px;
@@ -457,14 +399,12 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 #linksPost{
   font-size: 20px;
   margin-left: 350px;
   padding-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
 }
-
 #linkPost a:hover{
   color:#222629;
 }
@@ -475,16 +415,13 @@ img {
   font-size: 40px;
   color: #222629;
 }
-
 #linksPostMarch{
   margin-top: 5%;
   font-size: 20pt;
 }
-
 #linkPostMarch a:hover{
   color: #222629;
 }
-
 #pullquotePost{
   font-size: 20pt;
   color: #ffaa00;
@@ -498,7 +435,6 @@ img {
   margin-top: 90px;
   font-family: 'Archivo Black', sans-serif;
 }
-
 #backPost{
   padding-top: 60px;
   padding-bottom: 30px;
@@ -510,23 +446,18 @@ img {
   font-size: 30px;
   font-family: 'Archivo Black', sans-serif;
 }
-
 #backPost a:hover{
   color:#ffaa00;
 }
-
 .articles p{
   display: inline-block;
 }
-
 .titlePageCollege{
     padding-top: 250px;
     color: #ffaa00;
     font-size: 20px;
     text-align: center;
   }
-
-
 .linkCollege{
   color:white;
   font-size: 30px;
@@ -535,15 +466,13 @@ img {
   margin-top: 50px;
   display: inline-block;
 }
-
 .linkCollege:hover{
   font-size: 31px;
   text-decoration: underline;
 }
-
 #golden-state-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 100%;
@@ -555,14 +484,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #golden-state-button{
   color:#ffaa00;
 }
-
 #clippers-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 100%;
@@ -574,14 +501,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #clippers-button{
   color:#ffaa00;
 }
-
 #lakers-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 100%;
@@ -593,13 +518,11 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #lakers-button{
   color:#ffaa00;
 }
-
 #rams-info {
-	display: none;
+    display: none;
   position: absolute;
   background-color: #ffaa00;
   color: white;
@@ -612,14 +535,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #rams-button{
   color:#ffaa00;
 }
-
 #steelers-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 100%;
@@ -631,14 +552,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #steelers-button{
   color:#ffaa00;
 }
-
 #penguins-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
@@ -650,14 +569,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #penguins-button{
   color:#ffaa00;
 }
-
 #predators-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
@@ -669,14 +586,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #predators-button{
   color:#ffaa00;
 }
-
 #kings-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
@@ -688,14 +603,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #kings-button{
   color:#ffaa00;
 }
-
 #sox-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
@@ -706,14 +619,12 @@ img {
   z-index: 1;
   border-radius: 6px;
 }
-
 #sox-button{
   color:#ffaa00;
 }
-
 #nationals-info {
   position: absolute;
-	display: none;
+    display: none;
   background-color: #ffaa00;
   color: white;
   margin-left: 105%;
@@ -726,13 +637,200 @@ img {
   border-radius: 6px;
   float:right;
 }
-
 #nationals-button{
   color:#ffaa00;
 }
+
 
 @media (max-width: 450px) {
    body {
        background-color: red !important;
    }
+}
+
+@media (max-width: 500px),
+   (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2),
+   (max-width: 1000px) and (min-resolution: 144dpi) {
+
+   header{
+     text-align: right;
+     font-size: 200px;
+     line-height: 190px;
+     margin-right: -16%;
+     margin-left: 120px;
+     margin-top: 5%;
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+   }
+
+   #slogan{
+     text-align: right;
+     color: #ffaa00;
+     font-family: 'Archivo Black', sans-serif;
+     font-size: 75pt;
+     line-height: 100px;
+     margin-top: -2%;
+     margin-right: -16%;
+     margin-left: 10%;
+   }
+
+   #video1{
+     display: none;
+   }
+
+   #video2{
+    display: none;
+   }
+
+   .containter1{
+     background-color: #ffaa00;
+     height: 200%;
+     width: 123%;
+     margin-top: 2%;
+   }
+
+   .containter2{
+     background-color: #ffaa00;
+     height: 150%;
+     width: 123%;
+     margin-left: -3%;
+   }
+
+   .circle {
+     margin-top: 50%;
+     margin-left: 47%;
+     font-size: 320px;
+     color:  white;
+   }
+
+   .theme-title{
+     font-family: 'Archivo Black', sans-serif;
+     color: #ffaa00;
+     font-size: 150px;
+     margin-left: 4%;
+     line-height:160px;
+     margin-top: 50%;
+     padding-top: 10%;
+     margin-right: -20%;
+   }
+
+   .theme{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 100px;
+     line-height: 120px;
+     color: white;
+     margin-top: 50px;
+     margin-left: 5%;
+     margin-right: -10px;
+     padding-right: -10%;
+     padding-bottom: 40px;
+     text-align: left;
+   }
+
+   #button1 {
+       font-family: 'Open Sans', sans-serif;
+       background-color: #ffaa00;
+       padding-top: 10%;
+       padding-bottom: 10%;
+       margin-top: 2%;
+       margin-left: 25%;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 120px;
+       z-index: 3;
+       position: relative;
+   }
+
+   #button2 {
+       font-family: 'Open Sans', sans-serif;
+       background-color: #ffaa00;
+       padding-top: 10%;
+       padding-bottom: 10%;
+       margin-top: 2%;
+       margin-left: 11%;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 120px;
+       z-index: 10;
+   }
+
+   #bodyPost{
+     position: relative;
+     font-size: 100pt;
+     line-height: 130px;
+     text-align: left;
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     margin-left: 70px;
+     margin-right: -40px;
+     margin-top: -20%;
+   }
+
+   .footer{
+     margin-top: 10px;
+     background-color: #ffaa00;
+   }
+
+   #titlePost{
+     margin-left: 30px;
+     color:#ffaa00;
+     font-size: 100pt;
+     font-family:'Archivo Black', sans-serif;
+   }
+   #titlePost-College-Branding{
+     margin-left: -1%;
+     margin-right:-40%;
+     color:#ffaa00;
+     font-size: 80pt;
+     padding-top: 200px;
+     line-height: 200px;
+     font-family:'Archivo Black', sans-serif;
+   }
+   #titlePostMarch{
+     margin-left: 30px;
+     color:#ffaa00;
+     font-size: 100pt;
+     padding-top: 50px;
+     line-height: 140px;
+     font-family:'Archivo Black', sans-serif;
+   }
+   #titlePost-160{
+     margin-left: 30px;
+     color:#ffaa00;
+     font-size: 100pt;
+     padding-top: 10px;
+     line-height: 170px;
+     font-family:'Archivo Black', sans-serif;
+   }
+   #titlePost-Brandiose{
+     margin-left: 30px;
+     color:#ffaa00;
+     font-size: 100pt;
+     padding-top: 40px;
+     line-height: 170px;
+     font-family:'Archivo Black', sans-serif;
+   }
+
+   #sloganPost{
+     display:none;
+   }
+   #sloganPostMarch{
+     display:none;
+   }
+   #sloganPost-College-Branding{
+  display:none;
+   }
+   #sloganPost-160{
+     display:none;
+   }
+   #sloganPost-Brandiose{
+     display:none;
+   }
+
+   .containerPost {
+     display: none;
+   }
+
 }
