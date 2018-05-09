@@ -682,6 +682,31 @@ img {
     display: none;
    }
 
+   .arrows-1 {
+     font-size: 200px;
+     color:white;
+     margin-left: 900px;
+     margin-top: -15%;
+     display: flex;
+   }
+
+   .arrows-2 {
+     font-size: 200px;
+     color:white;
+     margin-right: -35%;
+     margin-top: -23.5%;
+     padding-right: 2.5%;
+     float: right;
+   }
+
+   #sports-branding{
+     color:white;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 60px;
+     margin-top: 10%;
+     margin-left: 30%;
+   }
+
    .containter1{
      background-color: #ffaa00;
      height: 200%;
@@ -716,12 +741,12 @@ img {
 
    .theme{
      font-family: 'Open Sans', sans-serif;
-     font-size: 100px;
-     line-height: 120px;
+     font-size: 60px;
+     line-height: 100px;
      color: white;
-     margin-top: 50px;
+     margin-top: -5%;
      margin-left: 5%;
-     margin-right: -10px;
+     margin-right: -100px;
      padding-right: -10%;
      padding-bottom: 40px;
      text-align: left;
@@ -758,42 +783,45 @@ img {
 
    #bodyPost{
      position: relative;
-     font-size: 100pt;
-     line-height: 130px;
+     font-size: 60pt;
+     line-height: 110px;
      text-align: left;
      color: white;
      font-family: 'Open Sans', sans-serif;
      margin-left: 70px;
-     margin-right: -40px;
+     margin-right: -300px;
      margin-top: -20%;
    }
 
    .footer{
      margin-top: 10px;
      background-color: #ffaa00;
+     width: 137%;
+     padding:-10%;
    }
 
    #titlePost{
      margin-left: 30px;
      color:#ffaa00;
-     font-size: 100pt;
+     font-size: 150pt;
+     margin-bottom: -20%;
      font-family:'Archivo Black', sans-serif;
    }
    #titlePost-College-Branding{
-     margin-left: -1%;
+     margin-left: 5%;
      margin-right:-40%;
      color:#ffaa00;
-     font-size: 80pt;
-     padding-top: 200px;
-     line-height: 200px;
+     font-size: 75pt;
+     padding-top: 50px;
+     line-height: 160px;
      font-family:'Archivo Black', sans-serif;
    }
    #titlePostMarch{
      margin-left: 30px;
      color:#ffaa00;
-     font-size: 100pt;
+     font-size: 70pt;
      padding-top: 50px;
-     line-height: 140px;
+     line-height: 170px;
      font-family:'Archivo Black', sans-serif;
    }
    #titlePost-160{
@@ -801,16 +829,21 @@ img {
      color:#ffaa00;
      font-size: 100pt;
      padding-top: 10px;
-     line-height: 170px;
+     padding-bottom: -10%;
+     line-height: 210px;
      font-family:'Archivo Black', sans-serif;
    }
    #titlePost-Brandiose{
      margin-left: 30px;
      color:#ffaa00;
-     font-size: 100pt;
+     font-size: 65pt;
      padding-top: 40px;
      line-height: 170px;
      font-family:'Archivo Black', sans-serif;
+   }
+
+   #videoPost{
+    display: none;
    }
 
    #sloganPost{
@@ -829,8 +862,96 @@ img {
      display:none;
    }
 
-   .containerPost {
+   .containerPost{
      display: none;
+   }
+   #pullquotePost{
+     font-size: 70pt;
+     color: #ffaa00;
+     font-style: italic;
+     padding-top: -90%;
+     margin-right: 10%;
+     margin-left: -1%;
+     font-family: 'Archivo Black', sans-serif;
+   }
+
+   #articlesTitle-brandiose{
+     margin-top: 15px;
+     margin-left: -210px;
+     margin-bottom: 15px;
+     font-size: 40px;
+     color: #222629;
+   }
+   #articlesTitle-Branding{
+     margin-top: 10px;
+     margin-left:-10%;
+     font-size: 100px;
+     color: #222629;
+   }
+   #articlesTitle-160{
+     margin-top: 10px;
+     margin-left:-660px;
+     margin-bottom: 5px;
+     font-size: 40px;
+     color: #222629;
+   }
+   #articlesTitleDraft{
+     margin-top: 1%;
+     margin-left:-10%;
+     margin-bottom: -5%;
+     font-size: 40px;
+     color: #222629;
+   }
+   #articlesTitle-nfl{
+     margin-top: 15px;
+     margin-left: -650px;
+     margin-bottom: 15px;
+     font-size: 40px;
+     color: #222629;
+   }
+   #articlesTitle-nhl{
+     margin-top: 15px;
+     margin-left: -650px;
+     margin-bottom: 15px;
+     font-size: 40px;
+     color: #222629;
+   }
+   #articlesTitle-MLB{
+     margin-top: 15px;
+     margin-left: -530px;
+     margin-bottom: 15px;
+     font-size: 40px;
+     color: #222629;
+   }
+   #articlesTitle-nba{
+     margin-top: 15px;
+     margin-left: -60px;
+     margin-bottom: 15px;
+     font-size: 40px;
+     color: #222629;
+   }
+   #linksPost{
+     font-size: 20px;
+     margin-left: 350px;
+     padding-bottom: 20px;
+     font-family: 'Open Sans', sans-serif;
+   }
+   #articlesTitleMarch{
+     margin-top: 10px;
+     margin-left:-350px;
+     margin-bottom: 0px;
+     font-size: 40px;
+     color: #222629;
+   }
+   #linksPostMarch{
+     margin-top: 5%;
+     font-size: 20pt;
+   }
+
+   .links{
+     font-size:55px;
+     line-height: 50px;
+     margin-left: -10%;
    }
 
 }
