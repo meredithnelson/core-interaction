@@ -29,9 +29,10 @@ header:hover {
   margin-top: -5%;
 }
 .circle {
+  padding-top: -10%;
   margin-top: 10%;
   margin-left: 47%;
-  font-size: 75px;
+  font-size: 90px;
   color:  white;
 }
 .circle:hover{
@@ -67,6 +68,11 @@ header:hover {
   margin-left: 550px;
   display: flex;
 }
+
+#videofiles{
+  width:115%;
+}
+
 #sports-branding:hover{
   color: #ffaa00;
 }
@@ -96,6 +102,7 @@ header:hover {
   font-size: 40px;
   margin-left: 100px;
   margin-top: -2%;
+  color: #ffaa00;
 }
 
 #aboutmetitle{
@@ -462,6 +469,12 @@ img {
   margin-right: 100px;
   font-family: 'Archivo Black', sans-serif;
 }
+.location-1{
+  background-color:#222629;
+  margin-top: 90px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
 .location{
   background-color:#222629;
   margin-top: 90px;
@@ -674,12 +687,6 @@ img {
 }
 
 
-@media (max-width: 450px) {
-   body {
-       background-color: red !important;
-   }
-}
-
 @media (max-width: 500px),
    (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2),
    (max-width: 1000px) and (min-resolution: 144dpi) {
@@ -822,14 +829,11 @@ img {
      font-family: 'Open Sans', sans-serif;
      margin-left: 70px;
      margin-right: -300px;
-     margin-top: -20%;
+     margin-top: -1%;
    }
 
-   .footer{
-     margin-top: 10px;
-     background-color: #ffaa00;
-     width: 137%;
-     padding:-10%;
+   .articles{
+     display: none;
    }
 
    #titlePost{
@@ -895,8 +899,18 @@ img {
    }
 
    .containerPost{
+     padding:0%;
+   }
+   .left {
      display: none;
    }
+   .right {
+     width: 300%;
+     height: 100%;
+     margin-left: 5%;
+     margin-right: -30%;
+   }
+
    #pullquotePost{
      font-size: 70pt;
      color: #ffaa00;
@@ -985,5 +999,113 @@ img {
      line-height: 50px;
      margin-left: -10%;
    }
+
+   #about-me{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 90px;
+     margin-left: 50px;
+     margin-top: -10%;
+     color: #ffaa00;
+   }
+
+   #aboutmetitle{
+     font-family:'Archivo Black', sans-serif;
+     font-size: 200px;
+     margin-top: 20%;
+     line-height: 150px;
+     margin-left: 9%;
+     color: #ffaa00;
+   }
+
+   #backPost{
+     margin-left: 7%;
+     width: 85%;
+     padding-bottom: 5%;
+     margin-top: -50%;
+     font-size: 65px;
+     font-family: 'Archivo Black', sans-serif;
+     background-color: #ffaa00;
+   }
+
+   .location-1{
+     background-color: #ffaa00;
+     width: 120%;
+     padding-right: -5%;
+     margin-right: -2%;
+     margin-top: 90%;
+     font-family: 'Archivo Black', sans-serif;
+   }
+
+   .location{
+     background-color: #ffaa00;
+     width: 137%;
+     padding-right: -10%;
+     margin-right: -10%;
+     margin-top: 75%;
+     font-family: 'Archivo Black', sans-serif;
+   }
+
+   #golden-state-info {
+  display: none;
+   }
+   #golden-state-button{
+     display: none;
+   }
+   #clippers-info {
+     display: none;
+   }
+   #clippers-button{
+     display: none;
+   }
+   #lakers-info {
+    display: none;
+   }
+   #lakers-button{
+    display: none;
+   }
+   #rams-info {
+     display: none;
+   }
+   #rams-button{
+     display: none;
+   }
+   #steelers-info {
+     display: none;
+   }
+   #steelers-button{
+    display: none;
+   }
+   #penguins-info {
+    display: none;
+   }
+   #penguins-button{
+     display: none;
+   }
+   #predators-info {
+    display: none;
+   }
+   #predators-button{
+     display: none;
+   }
+   #kings-info {
+     display: none;
+   }
+   #kings-button{
+     display: none;
+   }
+   #sox-info {
+    display: none;
+   }
+   #sox-button{
+     display: none;
+   }
+   #nationals-info {
+       display: none;
+
+   }
+   #nationals-button{
+     display: none;
+   }
+
 
 }
