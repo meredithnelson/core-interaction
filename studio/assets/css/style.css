@@ -29,9 +29,9 @@ header:hover {
   margin-top: -5%;
 }
 .circle {
-  padding-top: -10%;
-  margin-top: 5%;
-  margin-left: 45%;
+  padding-top: -15%;
+  margin-top: 4%;
+  margin-left: 46%;
   font-size: 100px;
   color:  white;
 }
@@ -125,10 +125,10 @@ header:hover {
 
 .containter1 {
   position: relative;
-    margin-bottom: -1%;
+    margin-bottom: -2%;
     height: 339px;
     width: 50%;
-    margin-right: -1%;
+    margin-right: -2%;
     z-index: 2;
     float: left;
     margin-left: 5%;
@@ -137,12 +137,13 @@ header:hover {
 .containter2 {
     position: relative;
     float: left;
-    margin-left: 3%;
-    margin-bottom: -1%;
+    margin-left: 2%;
+    margin-bottom: -2%;
     height: 373px;
     width: 43%;
     z-index: 2;
     margin-top: -3%;
+
 }
 #video-homepage{
   margin-top: 0px;
@@ -155,7 +156,8 @@ header:hover {
   filter: grayscale(100%);
   position: absolute;
   opacity: 0.5;
-  width: 95%;
+  width: 86%;
+  border: 5px solid red;
 }
 #video2{
   margin-left: -5.1%;
@@ -164,14 +166,15 @@ header:hover {
   filter: grayscale(100%);
   position: absolute;
   opacity: 0.5;
-  width:120%;
+  width:100%;
+  border: 5px solid red;
 }
 #button1 {
     font-family: 'Open Sans', sans-serif;
     background-color: #ffaa00;
     padding: 15px 32px;
-    margin-top: 150px;
-    margin-left: 17%;
+    margin-top: 130px;
+    margin-left: 22%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -188,8 +191,8 @@ header:hover {
     font-family: 'Open Sans', sans-serif;
     background-color: #ffaa00;
     padding: 15px 32px;
-    margin-top: 27%;
-    margin-left: 30%;
+    margin-top: 25%;
+    margin-left: 22%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -371,14 +374,14 @@ img {
 }
 #articlesTitle-brandiose{
   margin-top: 15px;
-  margin-left: -210px;
+  margin-left: -36%;
   margin-bottom: 15px;
   font-size: 40px;
   color: #222629;
 }
 #articlesTitle-Branding{
   margin-top: 10px;
-  margin-left:-375px;
+  margin-left:-40%;
   font-size: 40px;
   color: #222629;
 }
@@ -391,8 +394,8 @@ img {
 }
 #articlesTitleDraft{
   margin-top: 1%;
-  margin-left:-10%;
-  margin-bottom: -5%;
+  margin-left:-20%;
+  margin-bottom: 2%;
   font-size: 40px;
   color: #222629;
 }
@@ -443,7 +446,7 @@ img {
 }
 #articlesTitleMarch{
   margin-top: 10px;
-  margin-left:-350px;
+  margin-left:-21%;
   margin-bottom: 0px;
   font-size: 40px;
   color: #222629;
@@ -743,15 +746,19 @@ img {
    .containter1{
      background-color: #ffaa00;
      height: 200%;
-     width: 123%;
+     width: 120%;
      margin-top: 2%;
+     margin-left: -.5%;
+     margin-right: 50%;
    }
 
    .containter2{
      background-color: #ffaa00;
      height: 150%;
-     width: 123%;
-     margin-left: -3%;
+     width: 120%;
+     margin-top: 5%;
+     margin-right: 50%;
+     margin-left: -.5%;
    }
 
    .circle {
